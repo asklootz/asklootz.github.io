@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ask-IT</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<header>
-    <nav>
-        <div class="logo">
-            <a href="index.html">Logo</a>
-        </div>
-        <div class="navigation-items" id="navigation-items">
-            <a href="index.html">Home</a>
-        </div>
-        <div class="hamburger">
-            <span id="openHam">&#9776;</span>
-            <span id="closeHam">&#x2716;</span>
-        </div>
-    </nav>
-</header>
-
 <body>
-    <h1>Hovedside (temp)</h1>
+    <header>
+        <div id="navbar">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/webBunny.svg">
+                    </a>
+                </div>
+                <div class="hamburger-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="nav-menu hide">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <h1 id="indexTitle">Hovedside (temp)</h1>
     <p>Velkommen til Ask-IT
         <br>Her kan du stille spørsmål og få svar på det du lurer på.
     </p>

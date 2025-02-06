@@ -1,12 +1,6 @@
-let openHam = document.querySelector('.#openHam');
-let closeHam = document.querySelector('.#closeHam');
-let navigation = document.querySelector('.#navigation-items');
+const hamburger = document.querySelector('.hamburger-menu');
+const navMenu = document.querySelector('.nav-menu');
 
-const hamburgerEvent = (navigation, close, open) => {
-    navigationItems.style.display = navigation;
-    closeHam.style.display = close;
-    openHam.style.display = open;
-};
-
-openHam.addEventListener('click', () => hamburgerEvent("flex", "block", "none"));
-closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block"));
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('hide');
+});
