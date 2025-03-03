@@ -1,9 +1,47 @@
 @import "tailwindcss";
 
-html, body {
+html, 
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: darkslategray;
-  color: thistle;
+  font-family: "Stardos Stencil", sans-serif;
+  background: #0b0b0c;
+  color: #ffa3e8;
 }
+
+
+@layer utilities {
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
+
+
+
+/*
+Lexend, 
+Starados Stencil, 
+Space Grotesk
+*/
