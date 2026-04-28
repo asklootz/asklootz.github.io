@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: Publish via actions
 
 on:
   push:
@@ -9,16 +9,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
 
-  
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup
-      uses: actions/setup-node@v4
-      with:
-        node-version: 24.13
+      - uses: actions/checkout@v4
 
-    - name: Deploy
-      run: npm run -d deploy
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Bruk en stabil versjon som 18 eller 20
+
+      - name: Install dependencies
+        run: npm install # Dette lager node_modules slik at vite blir tilgjengelig
+
+      - name: Build
+        run: npm run build # Vite krever vanligvis et bygg-steg før deploy
+
+      - name: Deploy
+        run: npm run deploy
