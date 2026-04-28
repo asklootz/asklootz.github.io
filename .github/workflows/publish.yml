@@ -21,4 +21,4 @@ jobs:
         node-version: 24.13
 
     - name: Deploy
-      run: npm run predeploy && npm run -d deploy
+      run: npm run -d deploy

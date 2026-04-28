@@ -5,10 +5,11 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "dev": "vite"
+
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
