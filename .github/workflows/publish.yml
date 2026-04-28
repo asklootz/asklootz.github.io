@@ -20,5 +20,5 @@ jobs:
       with:
         node-version: 24.13
 
-    - name: Build
+    - name: Deploy
       run: npm run deploy
