@@ -1,28 +1,19 @@
-name: Publish via actions
+steps:
+  - uses: actions/checkout@v4
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  - name: Setup Node
+    uses: actions/setup-node@v4
+    with:
+      node-version: 20
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  - name: Install dependencies
+    run: npm install
 
-    steps:
-      - uses: actions/checkout@v4
+  - name: Build
+    run: npm run build
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20 # Bruk en stabil versjon som 18 eller 20
-
-      - name: Install dependencies
-        run: npm install # Dette lager node_modules slik at vite blir tilgjengelig
-
-      - name: Build
-        run: npm run build # Vite krever vanligvis et bygg-steg før deploy
-
-      - name: Deploy
-        run: npm run deploy
+  - name: Deploy to GitHub Pages
+    uses: JamesIves/github-pages-deploy-action@v4
+    with:
+      folder: dist # Eller mappen der byggfilene dine havner
+      branch: gh-pages # Grenen den skal deploye til
