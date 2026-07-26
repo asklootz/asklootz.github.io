@@ -19,4 +19,4 @@ npm run deploy
 ```
 
 ### Deployment to github pages:
-When a push is made to the main branch github actions will be used to publish the web app for all to see. This makes it so it is not needed to push all npm packages, they will be installed in a running environment. 
+When a push is made to the main branch github actions will be used to publish the web app for all to see. This makes it so it is not needed to push all npm packages, they will be installed in a running environment.
