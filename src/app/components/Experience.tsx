@@ -8,9 +8,20 @@ export function Experience({ language }: ExperienceProps) {
       title: "Experience",
       experiences: [
         {
+          title: "SOC Analyst",
+          company: "Netsecurity",
+          period: "June 2026 - Present",
+          description: "Working with monitoring and analyzing security events to protect the organization's digital informational assets.",
+          highlights: [
+            "Monitoring security events in real-time",
+            "Analyzing and responding to potential threats",
+            "Collaborating with the team to improve security protocols",
+          ],
+        },
+        {
           title: "Scientific Assistant",
           company: "University of Agder",
-          period: "January 2026 - Present",
+          period: "January 2026 - June 2026",
           description: "Working with being able to help and support students learning object oriented programming using C#, as well as holding lectures and grading assignemnts.",
           highlights: [
             "Held a lecture and workshop to help students get ready for exams",
@@ -46,9 +57,20 @@ export function Experience({ language }: ExperienceProps) {
       title: "Erfaring",
       experiences: [
         {
+          title: "SOC-analytiker",
+          company: "Netsecurity",
+          period: "Juni 2026 - Nåværende",
+          description: "Jobber med å overvåke og analysere sikkerhetshendelser for å beskytte organisasjonens digitale informasjon.",
+          highlights: [
+            "Overvåker sikkerhetshendelser i sanntid",
+            "Analyserer og responderer på potensielle trusler",
+            "Samarbeider med teamet for å forbedre sikkerhetsprotokoller",
+          ],
+        },
+        {
           title: "Vitenskapelig assistent",
           company: "Universitetet i Agder",
-          period: "Januar 2026 - Nåværende",
+          period: "Januar 2026 - Juni 2026",
           description: "Arbeider med å kunne hjelpe og støtte studenter i å lære objektorientert programmering ved bruk av C#, samt holde forelesninger og rette oppgaver.",
           highlights: [
             "Holdt en forelesning og workshop for å hjelpe studenter med å forberede seg til eksamen",
