@@ -10,7 +10,7 @@ export function Education({ language }: EducationProps) {
         {
           degree: "Bachelor in IT and information systems",
           school: "University of Agder",
-          period: "2024 - 2027",
+          period: "August 2024 - June 2027",
           description: "Currently pursuing a Bachelor's degree in IT and information systems with a focus on software development, data analysis, and cybersecurity.",
           achievements: [
             "Working for Systematicus to better the univeristy experience for IT-students at UiA",
@@ -21,7 +21,7 @@ export function Education({ language }: EducationProps) {
         {
           degree: "Vocational degree in IT",
           school: "Stavanger Municipality",
-          period: "2020 - 2022",
+          period: "August 2020 - August 2022",
           description: "Completed a vocational degree in IT through an apprenticeship. Gained hands-on experience in managing and maintaining complex IT systems  that would support around 15.000 employees and the public using it.",
           achievements: [
             "Well Passed Exam",
@@ -37,7 +37,7 @@ export function Education({ language }: EducationProps) {
         {
           degree: "Bachelor i IT og informasjonsystemer",
           school: "Universitetet i Agder",
-          period: "2024 - 2027",
+          period: "August 2024 - Juni 2027",
           description: "Nåværende student som jobber med en bachelorgrad i IT og informasjonsystemer med fokus på programvareutvikling, dataanalyse og cybersikkerhet.",
           achievements: [
             "Arbeid som teknologiansvarlig på Systematicus for å bedre studiehverdagen for IT-studenter ved UiA",
@@ -48,7 +48,7 @@ export function Education({ language }: EducationProps) {
         {
           degree: "Fagbrev i IT",
           school: "Stavanger Kommune",
-          period: "2020 - 2022",
+          period: "August 2020 - August 2022",
           description: "Fullført fagbrev i IT gjennom en lærlingplass. Fikk praktisk erfaring med å administrere og vedlikeholde komplekse IT-systemer som støttet rundt 15.000 ansatte og publikum som brukte det.",
           achievements: [
             "Meget godt bestått fagbrev",

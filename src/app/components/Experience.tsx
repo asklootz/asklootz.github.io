@@ -22,7 +22,7 @@ export function Experience({ language }: ExperienceProps) {
           title: "Scientific Assistant",
           company: "University of Agder",
           period: "January 2026 - June 2026",
-          description: "Working with being able to help and support students learning object oriented programming using C#, as well as holding lectures and grading assignemnts.",
+          description: "Worked with being able to help and support students learning object oriented programming using C#, as well as holding lectures and grading assignemnts.",
           highlights: [
             "Held a lecture and workshop to help students get ready for exams",
             "Helped students improve their programming skills with feedback from assignments",
@@ -32,18 +32,18 @@ export function Experience({ language }: ExperienceProps) {
         {
           title: "IT-consultant",
           company: "Centric",
-          period: "2022 - 2024",
-          description: "Working as a consultant sent to different customers to offer support and knowledge on different projects.",
+          period: "September 2022 - August 2024",
+          description: "Worked as a consultant sent to different customers to offer support and knowledge on different projects.",
           highlights: [
             "Gained CCNA certification",
             "Learned adaptive and effective communication skills",
-            "Oppertunity to work with different customers like Repsol and Tieto Every",
+            "Opportunity to work with different customers like Repsol and Tieto Every",
           ],
         },
         {
           title: "IT-apprentice",
           company: "Stavanger Municipality",
-          period: "2020 - 2022",
+          period: "August 2020 - August 2022",
           description: "Varied work with education on different systems to support both interal and external public users.",
           highlights: [
             "Well passed vocational degree",
@@ -71,7 +71,7 @@ export function Experience({ language }: ExperienceProps) {
           title: "Vitenskapelig assistent",
           company: "Universitetet i Agder",
           period: "Januar 2026 - Juni 2026",
-          description: "Arbeider med å kunne hjelpe og støtte studenter i å lære objektorientert programmering ved bruk av C#, samt holde forelesninger og rette oppgaver.",
+          description: "Jobbet med å kunne hjelpe og støtte studenter i å lære objektorientert programmering ved bruk av C#, samt holde forelesninger og rette oppgaver.",
           highlights: [
             "Holdt en forelesning og workshop for å hjelpe studenter med å forberede seg til eksamen",
             "Hjulpet studenter med å forbedre programmeringsferdighetene sine med tilbakemeldinger fra oppgaver",
@@ -81,8 +81,8 @@ export function Experience({ language }: ExperienceProps) {
         {
           title: "IT-konsulent",
           company: "Centric",
-          period: "2022 - 2024",
-          description: "Jobber som konsulent sendt til forskjellige kunder for å tilby støtte og kunnskap på forskjellige prosjekter.",
+          period: "September 2022 - August 2024",
+          description: "Jobbet som konsulent sendt til forskjellige kunder for å tilby støtte og kunnskap på forskjellige prosjekter.",
           highlights: [
             "Fikk CCNA-sertifisering",
             "Lærte adaptive og effektive kommunikasjonsevner",
@@ -92,7 +92,7 @@ export function Experience({ language }: ExperienceProps) {
         {
           title: "IT-lærling",
           company: "Stavanger Kommune",
-          period: "2020 - 2022",
+          period: "August 2020 - August 2022",
           description: "Varierte arbeidsoppgaver med opplæring i forskjellige systemer for å støtte både interne og eksterne offentlige brukere.",
           highlights: [
             "Meget godt bestått fagbrev",
