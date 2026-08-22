@@ -19,6 +19,17 @@ export function Experience({ language }: ExperienceProps) {
           ],
         },
         {
+          title: "Intern",
+          company: "Phonero",
+          period: "August 2026 - December 2026",
+          description: "Worked in their internal development team to work with their services in bringing B2B phone services to their customers. Worked with both backend and frontend development and backend, as well as testing and deployment.",
+          highlights: [
+            "Worked with both backend and frontend development",
+            "Gained experience with testing and deployment",
+            "Learned about B2B phone services and how they are delivered to customers",
+          ],
+        },
+        {
           title: "Scientific Assistant",
           company: "University of Agder",
           period: "January 2026 - June 2026",
@@ -65,6 +76,17 @@ export function Experience({ language }: ExperienceProps) {
             "Overvåker sikkerhetshendelser i sanntid",
             "Analyserer og responderer på potensielle trusler",
             "Samarbeider med teamet for å forbedre sikkerhetsprotokoller",
+          ],
+        },
+        {
+          title: "Praksisplass",
+          company: "Phonero",
+          period: "August 2026 - Desember 2026",
+          description: "Jobbet i deres interne utviklingsteam for å jobbe med deres tjenester for å bringe B2B-telefontjenester til kundene sine. Jobbet med både backend- og frontend-utvikling, samt testing og distribusjon.",
+          highlights: [
+            "Jobbet med både backend- og frontend-utvikling",
+            "Fikk erfaring med testing og distribusjon",
+            "Lærte om B2B-telefontjenester og hvordan de leveres til kundene",
           ],
         },
         {
